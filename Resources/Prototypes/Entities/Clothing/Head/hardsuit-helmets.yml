@@ -539,6 +539,18 @@
       head:
       - state: equipped-head-light
         shader: unshaded
+        
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitShiweiNew
+  name: syndicate elite hardsuit
+  description: A remake of the elite variant of the blood-red hardsuit, now with extra menacingness!.
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hardsuits/syndieelitenew.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/syndieelitenew.rsi
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase

@@ -691,6 +691,22 @@
         shader: unshaded
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitShiweiUnpainted
+    
+- type: entity
+  parent: ClothingOuterHardsuitSyndieElite
+  id: ClothingOuterHardsuitShiweiNew
+  name: syndicate elite hardsuit
+  description: A remake of the elite variant of the blood-red hardsuit, now with extra menacingness!.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/syndieelitenew.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/syndieelitenew.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitShiweiNew
 
 - type: entity
   parent: ClothingOuterHardsuitBase
